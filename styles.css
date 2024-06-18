@@ -1,0 +1,18 @@
+/* Nav settings for larger screens */
+@media (min-width: 992px) {
+    .navbar {
+        height: 100vh;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* /* Nav settings for smaller screens */*/
+@media (min-width: 992px) {
+    .content {
+        padding-left: 20px;
+    }
+}
