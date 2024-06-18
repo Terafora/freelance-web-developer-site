@@ -1,3 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
     .navbar {
@@ -8,10 +16,7 @@
         display: flex;
         flex-direction: column;
     }
-}
 
-/* /* Nav settings for smaller screens */*/
-@media (min-width: 992px) {
     .content {
         padding-left: 20px;
     }
