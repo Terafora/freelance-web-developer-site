@@ -6,6 +6,11 @@ body {
 
 }
 
+.lr-pad-none {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
     .navbar {
@@ -16,8 +21,5 @@ body {
         display: flex;
         flex-direction: column;
     }
-
-    .content {
-        padding-left: 20px;
-    }
 }
+navbar-dark text-white 
