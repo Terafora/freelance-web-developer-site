@@ -28,7 +28,7 @@ body {
         position: fixed;
         top: 50%; 
         transform: translateY(-50%);
-        left: 20px;
+        left: 2vw;
         background-color: red;
         color: #fff;
         padding: 20px 0;
@@ -49,5 +49,9 @@ body {
 
     .side-nav .nav-link:hover {
         color: #ddd;
+    }
+
+    .main-container {
+        margin-left: 7vw;
     }
 }
