@@ -3,12 +3,19 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    background-color: rgb(245,251,144);
 }
 
 .lr-pad-none {
     padding-left: 0;
     padding-right: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background:linear-gradient(to bottom right, rgb(63,165,253), rgb(78,219,194));
 }
 
 /* Nav settings for larger screens */
@@ -29,7 +36,7 @@ body {
         top: 50%; 
         transform: translateY(-50%);
         left: 2vw;
-        background-color: red;
+        background: linear-gradient(to bottom right, rgb(163, 10, 12), rgb(235, 75, 147));
         color: #fff;
         padding: 1rem 0;
         border-radius: 5px;
